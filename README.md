@@ -5,6 +5,7 @@ Best Score 0.76555 V5   features = ["Fclass", "Sex", "Age"] RandomForestClassifi
 Training data analysis
 Classes determined by XL percentile 0.10, 0.25, 0.50, 0.75, 0.90 on train data.
 
+### Below tables are for females only.
 YA = Age > 14 & <= 20.1
 
 | Fare   | Fclass | Age  | Ageclass |
