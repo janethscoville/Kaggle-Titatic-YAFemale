@@ -1,7 +1,9 @@
 #### Classification Alogorithms to predict a categorical outcome.
-Latest Score 0.75837 V7  features = ["Ageclass", "Fclass", "Sex"] RandomForestClassifier.
+Score 0.78 V9  features = ["Ageclass", "Fclass", "Sex"] Logistic Regression binary.
 
-Best Score 0.76555 V5   features = ["Fclass", "Sex", "Age"] RandomForestClassifier.
+Score 0.75837 V7  features = ["Ageclass", "Fclass", "Sex"] RandomForestClassifier.
+
+Score 0.76555 V5   features = ["Fclass", "Sex", "Age"] RandomForestClassifier.
 
 #### Training data analysis
 Classes determined by XL percentile 0.10, 0.25, 0.50, 0.75, 0.90 on train data.
