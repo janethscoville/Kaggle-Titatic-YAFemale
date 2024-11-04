@@ -1,5 +1,7 @@
 #### Classification Alogorithms to predict a categorical outcome.
-Score 0.78 V9  features = ["Ageclass", "Fclass", "Sex"] Logistic Regression binary.
+Score 0.78 V9  features = ["Fclass", "Sex", "Age"] Logistic Regression binary.
+Score 0.77 V10 model = XGBClassifier(use_label_encoder=False, eval_metric="logloss")
+Score 0.77 V10 tried stacked models.
 
 Score 0.75837 V7  features = ["Ageclass", "Fclass", "Sex"] RandomForestClassifier.
 
