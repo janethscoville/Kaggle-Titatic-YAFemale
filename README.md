@@ -1,11 +1,12 @@
+#### Classification Alogorithms to predict a categorical outcome.
 Latest Score 0.75837 V7  features = ["Ageclass", "Fclass", "Sex"] RandomForestClassifier.
 
 Best Score 0.76555 V5   features = ["Fclass", "Sex", "Age"] RandomForestClassifier.
 
-Training data analysis
+#### Training data analysis
 Classes determined by XL percentile 0.10, 0.25, 0.50, 0.75, 0.90 on train data.
 
-### Below tables are for females only.
+#### Below tables are for females only.
 YA = Age > 14 & <= 20.1
 
 | Fare   | Fclass | Age  | Ageclass |
@@ -16,7 +17,7 @@ YA = Age > 14 & <= 20.1
 | $31.00 | 4      | 38.0 | AA       |
 | $77.96 | 5      | 50.0 | S        |
 
-### Survival Counts
+#### Survival Counts
 | Age Class | Fclass 1 | Fclass 2 | Fclass 3 | Fclass 4 | Fclass 5 |
 |-----------|----------|----------|----------|----------|----------|
 | C         | 1        | 0        | 5        | 13       | 5        |
@@ -26,7 +27,7 @@ YA = Age > 14 & <= 20.1
 | S         | 0        | 0        | 3        | 4        | 13       |
 | U         | 2        | 14       | 1        | 9        | 10       |
 
-### Deceased Counts
+#### Deceased Counts
 | Age Class | Fclass 1 | Fclass 2 | Fclass 3 | Fclass 4 | Fclass 5 | 
 |-----------|----------|----------|----------|----------|----------|
 | C         | 0        | 1        | 1        | 6        | 6        |
@@ -37,7 +38,7 @@ YA = Age > 14 & <= 20.1
 | U         | 1        | 3        | 3        | 7        | 3        |  
 
 
-### Survival counts:
+#### Survival counts:
 | Pclass | 1  | 2  | 3  |
 |--------|----|----|----|
 | C      | 1  | 10 | 13 |
